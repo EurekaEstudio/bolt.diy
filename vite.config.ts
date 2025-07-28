@@ -18,7 +18,7 @@ export default defineConfig((config) => {
     },
     server: {
       host: true,
-      allowedHosts: ['host-boltdiy.pijpe2.easypanel.host', 'host-bolt.pijpe2.easypanel.host'],
+      allowedHosts: ['bolt.eurekaestudiocreativo.com/', 'host-bolt.pijpe2.easypanel.host'],
     },
     plugins: [
       nodePolyfills({
